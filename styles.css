@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body {
+background-color: darkmagenta;
+}
+
+p {
+color: yellowgreen;
+text-align: center;
+font-size: 14px;
+}
+
+h2 {
+color: yellowgreen;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+
+img src {
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+
+.unav {
+padding-left: 80px;
+}
+
+
+.joyRotate {
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 125px;
+	animation: rotation 5s infinite linear;
+	
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
